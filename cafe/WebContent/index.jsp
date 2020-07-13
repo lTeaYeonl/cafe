@@ -4,36 +4,34 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>test</title>
+<title>COFFEE</title>
 <link rel="stylesheet" href="${pageContext.request.contextPath }/css/bootstrap.css" />
 <link rel="stylesheet" href="${pageContext.request.contextPath }/css/bootstrap-grid.css" />
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
 <style>
-	body, html{
-		height: 100%;
-	}
-	.bg{
-		background-image: url("${pageContext.request.contextPath }/image/backgroundimg_1920.jpg");
-		height: 100%;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
+	body {
+	font-family : "Nanum Gothic", sans-serif
 	}
 </style>
 </head>
-<body>
-	<div class="bg">
-		<div class="container">
-			<div class="row">
+<body class="bg-dark">
+	<div class="p-3 mb-2 text-white mw-100">
+		<div class="container-fluid">
+			<div class="container">
+				<p class="text-center h1">꽃과 커피의 감성 콜라보</p>
+			</div>
+				<br /><br /><br />
+			<div class="row text-center">
 				<div class="col"></div>
-				<div class="col-3">
-					<a href="https://blog.naver.com/barista-park">
-						<img class="img-fluid" src="${pageContext.request.contextPath }/image/BaristaPark_b_01.jpg" alt="BaristaPark desc img" />
+				<div class="col-4">
+					<a href="https://blog.naver.com/florist-park">
+						<img class="img-thumbnail" src="${pageContext.request.contextPath }/image/FloristPark_b_01_700x700.jpg" alt="FloristPark desc img" />
 					</a>
 				</div>
 				<div class="col-1"></div>
-				<div class="col-3">
-					<a href="https://blog.naver.com/florist-park">
-						<img class="img-fluid" src="${pageContext.request.contextPath }/image/FloristPark_b_01.jpg" alt="FloristPark desc img" />
+				<div class="col-4">
+					<a href="https://blog.naver.com/barista-park">
+						<img class="img-thumbnail" src="${pageContext.request.contextPath }/image/BaristaPark_b_01_700x700.jpg" alt="BaristaPark desc img" />
 					</a>
 				</div>
 				<div class="col"></div>
