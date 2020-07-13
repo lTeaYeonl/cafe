@@ -17,21 +17,54 @@
 <body class="bg-dark">
 	<div class="p-3 mb-2 text-white mw-100">
 		<div class="container-fluid">
+			<br /><br /><br />
 			<div class="container">
 				<p class="text-center h1">꽃과 커피의 감성 콜라보</p>
 			</div>
-				<br /><br /><br />
+			<br /><br /><br />
 			<div class="row text-center">
 				<div class="col"></div>
 				<div class="col-4">
 					<a href="https://blog.naver.com/florist-park">
-						<img class="img-thumbnail" src="${pageContext.request.contextPath }/image/FloristPark_b_01_700x700.jpg" alt="FloristPark desc img" />
+						<img class="img-fluid" src="${pageContext.request.contextPath }/image/f_7.png" alt="FloristPark desc img" />
 					</a>
 				</div>
 				<div class="col-1"></div>
 				<div class="col-4">
 					<a href="https://blog.naver.com/barista-park">
-						<img class="img-thumbnail" src="${pageContext.request.contextPath }/image/BaristaPark_b_01_700x700.jpg" alt="BaristaPark desc img" />
+						<img class="img-fluid" src="${pageContext.request.contextPath }/image/b_7.png" alt="BaristaPark desc img" />
+					</a>
+				</div>
+				<div class="col"></div>
+			</div>
+			<br /><br /><br />
+			<div class="row text-center">
+				<div class="col"></div>
+				<div class="col-4">
+					<a href="https://blog.naver.com/florist-park">
+						<img class="img-fluid rounded-circle" src="${pageContext.request.contextPath }/image/f_7.png" alt="FloristPark desc img" />
+					</a>
+				</div>
+				<div class="col-1"></div>
+				<div class="col-4">
+					<a href="https://blog.naver.com/barista-park">
+						<img class="img-fluid rounded-circle" src="${pageContext.request.contextPath }/image/b_7.png" alt="BaristaPark desc img" />
+					</a>
+				</div>
+				<div class="col"></div>
+			</div>
+			<br /><br /><br />
+			<div class="row text-center">
+				<div class="col"></div>
+				<div class="col-4">
+					<a href="https://blog.naver.com/florist-park">
+						<img class="img-fluid rounded-circle" src="${pageContext.request.contextPath }/image/f_7.png" alt="FloristPark desc img" />
+					</a>
+				</div>
+				<div class="col-1"></div>
+				<div class="col-4">
+					<a href="https://blog.naver.com/barista-park">
+						<img class="img-fluid" src="${pageContext.request.contextPath }/image/b_7.png" alt="BaristaPark desc img" />
 					</a>
 				</div>
 				<div class="col"></div>
